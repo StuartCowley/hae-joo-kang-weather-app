@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastSummaries renders correctly 1`] = `
+<div
+  className="forecast-summaries"
+>
+  <div
+    className="forecast-summary"
+    data-testid="forecast-summary"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="forecast-summary__date"
+    >
+      Mon Apr 30
+    </div>
+    <div
+      className="forecast-summary__icon"
+      data-testid="forecast-icon"
+    >
+      <i
+        className="wi wi-day-sunny"
+        name="owm"
+      />
+    </div>
+    <div
+      className="forecast-summary__temperature"
+    >
+      11
+      °C
+    </div>
+    <div
+      className="forecast-summary__description"
+    >
+      Stub description
+    </div>
+  </div>
+  <div
+    className="forecast-summary"
+    data-testid="forecast-summary"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="forecast-summary__date"
+    >
+      Tue May 01
+    </div>
+    <div
+      className="forecast-summary__icon"
+      data-testid="forecast-icon"
+    >
+      <i
+        className="wi wi-day-thunderstorm"
+        name="owm"
+      />
+    </div>
+    <div
+      className="forecast-summary__temperature"
+    >
+      13
+      °C
+    </div>
+    <div
+      className="forecast-summary__description"
+    >
+      Stub description2
+    </div>
+  </div>
+</div>
+`;

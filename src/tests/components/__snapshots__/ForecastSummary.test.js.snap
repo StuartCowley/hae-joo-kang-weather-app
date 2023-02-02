@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastSummary renders correctly 1`] = `
+<div
+  className="forecast-summary"
+  data-testid="forecast-summary"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <div
+    className="forecast-summary__date"
+  >
+    Mon Apr 30
+  </div>
+  <div
+    className="forecast-summary__icon"
+    data-testid="forecast-icon"
+  >
+    <i
+      className="wi wi-day-sunny"
+      name="owm"
+    />
+  </div>
+  <div
+    className="forecast-summary__temperature"
+  >
+    11
+    °C
+  </div>
+  <div
+    className="forecast-summary__description"
+  >
+    Stub description
+  </div>
+</div>
+`;

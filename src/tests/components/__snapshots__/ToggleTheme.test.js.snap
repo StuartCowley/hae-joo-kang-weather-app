@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleTheme renders correctly 1`] = `
+<div
+  className="toggle-container"
+>
+  <input
+    id="switch"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <label
+    htmlFor="switch"
+  >
+    ToggleTheme
+  </label>
+</div>
+`;

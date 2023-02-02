@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm renders correctly 1`] = `
+<div
+  className="search-form"
+>
+  <input
+    data-testid="search-form__input"
+    onChange={[Function]}
+    placeholder="city name"
+    type="text"
+    value="Test city"
+  />
+  <button
+    onClick={[MockFunction]}
+    type="submit"
+  >
+    Search
+  </button>
+</div>
+`;

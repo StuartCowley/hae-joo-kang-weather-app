@@ -1,0 +1,14 @@
+.search-form {
+  display: flex;
+}
+
+.search-form > input {
+  width: 100%;
+  padding: 5px 0px 5px 10px;
+  margin-right:5px;
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  font-size: 20px;
+}

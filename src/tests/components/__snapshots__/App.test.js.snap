@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App correctly 1`] = `
+<div
+  className="weather-app light"
+>
+  <div
+    className="search-form"
+  >
+    <input
+      data-testid="search-form__input"
+      onChange={[Function]}
+      placeholder="city name"
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      Search
+    </button>
+  </div>
+  <h2
+    className="location"
+  >
+    , 
+  </h2>
+  <div
+    className="forecast-summaries"
+  />
+  <div
+    className="toggle-container"
+  >
+    <input
+      id="switch"
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <label
+      htmlFor="switch"
+    >
+      ToggleTheme
+    </label>
+  </div>
+</div>
+`;

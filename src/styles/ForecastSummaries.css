@@ -1,0 +1,14 @@
+.forecast-summaries {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+@media (min-width: 768px) {
+  .forecast-summaries {
+  flex-direction: row;
+  }
+}

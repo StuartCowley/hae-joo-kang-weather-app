@@ -1,0 +1,20 @@
+.forecast-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px; 
+}
+
+.forecast-summary__icon {
+  padding: 10px 0px;
+  font-size: 5vh;
+}
+
+.forecast-summary:hover {
+  box-shadow: 2px 4px 6px rgb(86, 86, 86);
+}
+
+.forecast-summary__button {
+  margin-top: 15px;
+}
